@@ -1,29 +1,44 @@
+
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f5;
+    background-image: url('png.avif'); /* Background image for all pages */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
     color: #333;
 }
 
 header {
-    background-color: #4CAF50; /* Green background */
+    background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent green background */
     color: white;
     text-align: center;
     padding: 1.5rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+
 main {
     padding: 2rem;
+}
+
+/* Dashboard Styles */
+#dashboard {
+    background-image: url('dashboard-bg.webp'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    padding: 2rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Section Headers */
 h2 {
     margin-top: 0;
     color: #4CAF50;
-    border-bottom: 2px solid #4CAF50; /* Underline effect */
+    border-bottom: 2px solid #4CAF50;
     padding-bottom: 0.5rem;
 }
 
@@ -79,7 +94,7 @@ button:hover {
 }
 
 .house {
-    background-color: #fff; /* White background for house listings */
+    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
